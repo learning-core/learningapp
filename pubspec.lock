@@ -74,6 +74,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  learningapp_login:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: e9a35a72292f553dccb1772c0d3cb6f7f7f8f4ce
+      url: "https://github.com/learning-core/learningapp_login.git"
+    source: git
+    version: "1.0.0+1"
   lints:
     dependency: transitive
     description:
@@ -95,6 +104,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
+  micro_core:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: a04c1d298482b29f58dbd8782646e2bb774e9e6b
+      url: "https://github.com/learning-core/micro_core.git"
+    source: git
+    version: "1.0.1"
   path:
     dependency: transitive
     description:
@@ -165,3 +183,4 @@ packages:
     version: "2.1.1"
 sdks:
   dart: ">=2.15.0 <3.0.0"
+  flutter: ">=1.17.0"
